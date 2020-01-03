@@ -24,7 +24,7 @@ const ProfilePhotos = () => {
                         <Button 
                             floated='right' 
                             basic 
-                            content={addPhotoMode ? 'cancel' : 'Add Photo'}
+                            content={addPhotoMode ? 'Cancel' : 'Add Photo'}
                             onClick={() => setAddPhotoMode(!addPhotoMode)} />
                     }
                 </Grid.Column> 
